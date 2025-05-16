@@ -1,0 +1,59 @@
+
+
+
+
+/* moblie ma kevi dekase ena mate  */
+
+
+
+@media only screen and (min-width:200px) and (max-width:575px)
+{
+    header {
+        flex-direction: column;
+        padding: 15px;
+        align-items: stretch;
+        gap: 15px;
+    }
+
+    .logo {
+        padding: 10px;
+    }
+    .headeraddress {
+        padding: 10px;
+    }
+
+    .headeraddress h3 {
+        font-size: 15px;
+    }
+    .headeraddress p {
+        font-size: 12px;
+    }
+    .searchbox button {
+         padding: 10px;
+    }
+
+    .headerbutton {
+        position: fixed;
+        background-color: white;
+        width: 100%;
+        justify-content: center;
+        bottom: 0px;
+        margin-right: 0px;
+
+    }
+    .orderbanner {
+        flex-direction: column;
+        padding:10px;
+    }
+
+    .categoryitem {
+        flex-basis: 25%;
+    }
+
+    .productsection {
+        padding: 30px 10px;
+    }
+    .productitem {
+        flex-basis: 49%;
+    }
+}
